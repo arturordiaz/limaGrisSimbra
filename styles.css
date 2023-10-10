@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+/*
+.border{
+    border: 1px solid red;
+}
+*/
+.contenedor{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  
+}
+
+#lima{
+    margin-right: -6%;
+    font-size:300px;
+    font-weight: bold;
+    color: #CCCCCC;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo{
+    width: 50%;
+}
+#frase-box{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#frase{
+    margin-left: 16% ;
+    letter-spacing: -1px;
+    text-align: left;
+    font-size: 100px;
+}
+.negro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 750px;
+    background-color: black;
+    box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.75);
+}
+
+#negro33-1{
+    height: 350px;
+    border-radius: 0px 0px 0px 150px; ;
+}
+#negro33-2{
+    height: 350px;
+    border-radius: 0px 150px 150px 0px;
+}
+#negro33-3{
+    height: 350px;
+    border-radius: 150px 0px 0px 0px;
+}
+
+h3{
+    font-size: 50px;   
+}
+
+.contenedor-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 300px;
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    width: 300px;
+    border-radius: 150px;
+    border: 10px solid rgb(199, 199, 199);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+#centro{
+    background: url("imagenes/lima.jpeg");
+    background-size:    cover;
+    background-repeat: no-repeat;
+}
+
+#callejera{
+    background: url("imagenes/lima-streets-1.jpg");
+    background-size:    cover;
+    background-repeat: no-repeat;
+    background-position: -90px;
+}
+
+#comida{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#surf{
+    background: url("imagenes/surf.jpeg");
+    background-size:    cover;
+    background-repeat: no-repeat;
+    background-position: -150px ;
+}
+
+#me{
+    background: url("imagenes/Arturo\ .jpeg");
+    background-size:    cover;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    width: 140px;
+    height: 140px;
+}
+
+.card{
+    margin: 100px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 0px 76px 0px 0px;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.776);
+    border-left: 10px solid rgba(195, 192, 192, 0.639);
+    background: #000000;
+    height: 200px;
+    width: 500px;
+}
+
+#puesto{
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+}
